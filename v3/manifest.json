@@ -8,7 +8,7 @@
   "manifest_version":3,
    "content_scripts": [
    {
-     "matches": ["https://*.craiyon.com/*"],
+     "matches": ["https://www.craiyon.com/*"],
      "js": ["content-script.js"]
    }
  ]
