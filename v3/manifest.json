@@ -1,0 +1,17 @@
+{
+	"name":"Craiyon Download All Images",
+	"description":"Download all 9 images in original quality from craiyon.com!",
+	"version":"1.0",
+	"permissions": [
+    "activeTab"
+  ],
+  "manifest_version":3,
+   "content_scripts": [
+   {
+     "matches": ["https://*.craiyon.com/*"],
+     "js": ["content-script.js"]
+   }
+ ]
+}
+
+
